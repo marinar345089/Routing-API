@@ -3,14 +3,13 @@ import {
   Container,
   Flex,
   Grid,
-  Heading,
   IconButton,
   RadioCards,
   Select,
   Text,
   TextField,
 } from "@radix-ui/themes";
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Product from "../components/Product";
 import { useDispatch, useSelector } from "react-redux";
 import { setProducts } from "../redux/slices/productsReducer";

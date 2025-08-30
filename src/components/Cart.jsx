@@ -35,7 +35,7 @@ export default function Cart() {
   return (
     <Dialog.Root>
       <Dialog.Trigger>
-        <Button style={{ position: "relative", top: "5px" }}>
+        <Button ml={"3"} style={{ position: "relative", top: "5px" }}>
           <ArchiveIcon />
           Cart
           {cartProducts.length > 0 && (
